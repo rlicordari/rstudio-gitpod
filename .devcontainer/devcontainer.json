@@ -1,0 +1,10 @@
+{
+  "name": "RStudio Server",
+  "image": "ghcr.io/rocker-org/rocker:latest",
+  "portsAttributes": {
+    "8787": {
+      "label": "RStudio",
+      "onAutoForward": "openBrowser"
+    }
+  }
+}
